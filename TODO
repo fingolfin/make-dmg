@@ -1,0 +1,14 @@
+* Catch if the script aborts and cleanup:
+  - unmount the volume
+  - delete incomplete .dmg?
+
+* move the temporary .dmg into /tmp resp use mktemp
+
+* make some of the settings configurable via a config
+  file??
+  On the other hand, editing the shell script is quite
+  easy as it is...
+
+* The initial dmg currently is set to 50 MB. Make this
+  variable (e.g. use "du" on the content dir and add some
+  margin)
